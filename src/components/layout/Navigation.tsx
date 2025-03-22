@@ -13,20 +13,17 @@ const Navigation: React.FC = () => {
       <NavLink to="/" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'} end>
         <FaHome size={24} />
       </NavLink>
-      <NavLink to="/jr-engineer" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
-        Path
+      <NavLink to="/strength" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
+        Strength
       </NavLink>
-      <NavLink to="/leveraging-ai" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
-        AI
+      <NavLink to="/cardio" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
+        Cardio
       </NavLink>
-      <NavLink to="/github" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
-        Github
+      <NavLink to="/nutrition" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
+        Nutrition
       </NavLink>
-      <NavLink to="/future" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
-        Future
-      </NavLink>
-      <NavLink to="/keyboards" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
-        Keyboards
+      <NavLink to="/wellness" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
+        Wellness
       </NavLink>
       <NavLink to="/resources" className={({ isActive }: NavLinkClassNameProps) => isActive ? 'nav-link active' : 'nav-link'}>
         Resources
